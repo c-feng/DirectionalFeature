@@ -1,5 +1,5 @@
 # DirectionalFeature
-Learning Directional Feature Maps for Cardiac MRI Segmentation (MICCAI2020)
+**Learning Directional Feature Maps for Cardiac MRI Segmentation (MICCAI2020)**
 
 ## Citation
 
