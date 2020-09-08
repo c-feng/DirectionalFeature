@@ -30,5 +30,5 @@ Please cite the related works in your publications if it helps your research:
 ### Training
 ```
 cd ./tools
-python -m torch.distributed.launch --nproc_per_node 2 --master_port $RANDOM train.py --batch_size 32 --mgpus 0,1,2,3 --output_dir logs/... --train_with_eval
+python -m torch.distributed.launch --nproc_per_node 4 --master_port $RANDOM train.py --batch_size 32 --mgpus 0,1,2,3 --output_dir logs/... --train_with_eval
 ```
