@@ -1,7 +1,8 @@
 # DirectionalFeature
 
-This repository contains the code for following paper **Learning Directional Feature Maps for Cardiac MRI Segmentation (published in MICCAI2020)**, https://arxiv.org/abs/2007.11349
+This repository contains the code of the following paper "**Learning Directional Feature Maps for Cardiac MRI Segmentation (published in MICCAI2020)**", https://arxiv.org/abs/2007.11349
 
+![](./pipeline.png)
 ## Citation
 
 Please cite the related works in your publications if it helps your research:
