@@ -25,3 +25,10 @@ Please cite the related works in your publications if it helps your research:
 4. In the file, set the path to ACDC training dataset is pointed as: ```complete_data_path = '../../ACDC_DataSet/training' ```.
 5. Run the script acdc_data_preparation.py.
 6. The processed data for training is generated outside the project folder named *processed_acdc_dataset*.
+7. Run the ./libs/datastes/gen_acdcjson.py to generate the data list for ACDC training and validation.
+
+### Training
+```
+cd ./tools
+python -m torch.distributed.launch --nproc_per_node 2 --master_port $RANDOM train.py --batch_size 32 --mgpus 0,1,2,3 --output_dir logs/... --train_with_eval
+```
