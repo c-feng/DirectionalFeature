@@ -12,9 +12,11 @@ Please cite the related works in your publications if it helps your research:
   title={Learning directional feature maps for cardiac mri segmentation},
   author={Cheng, Feng and Chen, Cheng and Wang, Yukang and Shi, Heshui and Cao, Yukun and Tu, Dandan and Zhang, Changzheng and Xu, Yongchao},
   booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
-  month = {Oct.},
+  pages={108--117},
   year={2020},
+  organization={Springer}
 }
+
 ```
 ## Usage
 
